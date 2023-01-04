@@ -1,0 +1,47 @@
+{
+  "name": "nodejs-js-scaffolding",
+  "version": "1.0.0",
+  "description": "boilerplate code for RESTful APIs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uditnarayan13/NodeJs-JS-Scaffolding.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "RESTful"
+  ],
+  "author": "udit.narayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uditnarayan13/NodeJs-JS-Scaffolding/issues"
+  },
+  "homepage": "https://github.com/uditnarayan13/NodeJs-JS-Scaffolding#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1"
+  }
+}
